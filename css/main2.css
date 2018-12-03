@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body-block {
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block {
+    background-color: grey;
+    flex-basis: 15%;
+    margin: 5px;
+}
+
+#b1, #b2, #b3, #b5, #b8 {
+    flex-basis: 31%;
+}
+
+#b4 {
+    flex-basis: 63%;
+}
+
