@@ -2,3 +2,47 @@
     margin: 0;
     padding: 0;
 }
+
+.boby-block {
+    display: flex;
+    width: 900px;
+    height: 200px;
+    margin: 15px;
+    justify-content: flex-end;
+}
+
+.block2 {
+    flex-wrap: wrap;
+}
+
+#b1 {
+    background-color: yellow;
+    width: 450px;
+    height: 200px;
+    margin: 15px;
+}
+
+#b2 {
+    display: flex;
+    background-color: green;
+    flex-basis: 450px;
+    height: 200px;
+    margin: 15px;
+}
+
+#b3 {
+    background-color: palevioletred;
+    width: 600px;
+    height: 300px;
+    margin: 15px;
+}
+
+#b4, #b5 {
+    background-color: lightskyblue;
+    width: 240px;
+    height: 130px;
+    margin: 15px;
+}
+#b5 {
+    align-self: flex-start;
+}
